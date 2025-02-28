@@ -15,6 +15,7 @@ function generateDomains() {
       for (let k = 0; k < noun.length; k++) {
         for (let l = 0; l < dot.length; l++){
           domains.push(pronoun[i] + adj[j] + noun[k] + dot[l]);
+          console.log(pronoun[i] + adj[j] + noun[k] + dot[l]);
       }
      }
     }
